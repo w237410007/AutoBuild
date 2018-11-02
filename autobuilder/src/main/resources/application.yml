@@ -1,0 +1,13 @@
+spring:
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/views/
+#      suffix: index.html
+  datasource:
+    url: jdbc:mysql://139.180.216.90:3306/auto_builder?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
